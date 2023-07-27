@@ -26,12 +26,6 @@
       "kind": "wildcard",
       "dst": "www.recaptcha.net/recaptcha",
       "enable": true
-    },
-    {
-      "src": "gravatar.com",
-      "kind": "wildcard",
-      "dst": "gravatar.loli.net",
-      "enable": true
     }
   ],
   "cancel-rules": [],
