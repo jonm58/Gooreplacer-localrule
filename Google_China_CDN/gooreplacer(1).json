@@ -32,18 +32,6 @@
       "kind": "wildcard",
       "dst": "gravatar.loli.net",
       "enable": true
-    },
-    {
-      "src": "cdn.jsdelivr.net",
-      "kind": "wildcard",
-      "dst": "fastly.jsdelivr.net",
-      "enable": true
-    },
-    {
-      "src": "cdnjs.cloudflare.com",
-      "kind": "wildcard",
-      "dst": "cdnjs.loli.net",
-      "enable": false
     }
   ],
   "cancel-rules": [],
