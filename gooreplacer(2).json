@@ -1,0 +1,112 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.13.1",
+  "createAt": "2023/8/6 16:37:50",
+  "redirect-rules": [
+    {
+      "src": "source.android.com",
+      "kind": "wildcard",
+      "dst": "source.android.google.cn",
+      "enable": true
+    },
+    {
+      "src": "developer.android.com",
+      "kind": "wildcard",
+      "dst": "developer.android.google.cn",
+      "enable": true
+    },
+    {
+      "src": "developers.google.com",
+      "kind": "wildcard",
+      "dst": "developers.google.cn",
+      "enable": true
+    },
+    {
+      "src": "cdn.jsdelivr.net",
+      "kind": "wildcard",
+      "dst": "gcore.jsdelivr.net",
+      "enable": false
+    },
+    {
+      "src": "cdn.jsdelivr.net",
+      "kind": "wildcard",
+      "dst": "fastly.jsdelivr.net",
+      "enable": false
+    },
+    {
+      "src": "cdn.jsdelivr.net",
+      "kind": "wildcard",
+      "dst": "cdn-js.moeworld.top",
+      "enable": true
+    },
+    {
+      "src": "secure.gravatar.com",
+      "kind": "wildcard",
+      "dst": "gravatar.loli.net",
+      "enable": true
+    },
+    {
+      "src": "ajax.googleapis.com",
+      "kind": "wildcard",
+      "dst": "ajax.loli.net",
+      "enable": true
+    },
+    {
+      "src": "ajax.googleapis.cn",
+      "kind": "wildcard",
+      "dst": "ajax.loli.net",
+      "enable": true
+    },
+    {
+      "src": "themes.googleusercontent.com",
+      "kind": "wildcard",
+      "dst": "themes.loli.net",
+      "enable": true
+    },
+    {
+      "src": "fonts.gstatic.cn",
+      "kind": "wildcard",
+      "dst": "gstatic.loli.net",
+      "enable": true
+    },
+    {
+      "src": "fonts.gstatic.com",
+      "kind": "wildcard",
+      "dst": "gstatic.loli.net",
+      "enable": true
+    },
+    {
+      "src": "fonts.googleapis.com",
+      "kind": "wildcard",
+      "dst": "fonts.loli.net",
+      "enable": true
+    },
+    {
+      "src": "fonts.googleapis.cn",
+      "kind": "wildcard",
+      "dst": "fonts.loli.net",
+      "enable": true
+    },
+    {
+      "src": "cdnjs.cloudflare.com",
+      "kind": "wildcard",
+      "dst": "cdnjs.loli.net",
+      "enable": true
+    },
+    {
+      "src": "www.google.com/recaptcha",
+      "kind": "wildcard",
+      "dst": "www.recaptcha.net/recaptcha",
+      "enable": true
+    },
+    {
+      "src": "www.gravatar.com",
+      "kind": "regexp",
+      "dst": "gravatar.loli.net",
+      "enable": true
+    }
+  ],
+  "cancel-rules": [],
+  "request-headers": [],
+  "response-headers": []
+}
